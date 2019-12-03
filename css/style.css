@@ -27,6 +27,22 @@ header #player2 {
   padding-right: 1rem;
 }
 
+/* Reset Btn */
+.resetBtnDiv{
+  width: 100%;
+  text-align: center;
+}
+ #reset {
+  text-align: center;
+  padding: 3px;
+  background-color: #4E525A;
+  color: #00ADB5;
+  border-radius: 5px;
+}
+#reset:hover {
+  background-color: #7A7E83;
+}
+
 /* Grid styles */
 .TicTacToe-Container {
   display: grid;
