@@ -162,3 +162,39 @@ function IsDraw() {
     alert("There has been a draw!");
   }
 }
+
+
+// Start game over
+function ResetGame() {
+
+  // Reset mark because Player 1 goes first
+  var mark = "X";
+
+  // Change each buttons innerHTML to blank and set disabled to false
+  document.getElementById("1").childNodes[1].innerHTML = "";
+  document.getElementById("1").disabled = false;
+
+  document.getElementById("2").childNodes[1].innerHTML = "";
+  document.getElementById("2").disabled = false;
+
+  document.getElementById("3").childNodes[1].innerHTML = "";
+  document.getElementById("3").disabled = false;
+
+  document.getElementById("4").childNodes[1].innerHTML = "";
+  document.getElementById("4").disabled = false;
+
+  document.getElementById("5").childNodes[1].innerHTML = "";
+  document.getElementById("5").disabled = false;
+
+  document.getElementById("6").childNodes[1].innerHTML = "";
+  document.getElementById("6").disabled = false;
+
+  document.getElementById("7").childNodes[1].innerHTML = "";
+  document.getElementById("7").disabled = false;
+
+  document.getElementById("8").childNodes[1].innerHTML = "";
+  document.getElementById("8").disabled = false;
+
+  document.getElementById("9").childNodes[1].innerHTML = "";
+  document.getElementById("9").disabled = false;
+}
