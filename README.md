@@ -1,6 +1,7 @@
 # Tic-Tac-Toe
 Two player Tic Tac Toe game developed with one html page including vanilla javascript.
 
+## [Live Demo](https://krummencode.github.io/Tic-Tac-Toe/)
 
 ## Objective
 You should be able take in two player's with their names then they should be able to play a simple game of tic tac toe with each player taking a turn until the outcome is determined a draw or there is a winner.
