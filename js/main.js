@@ -168,7 +168,7 @@ function IsDraw() {
 function ResetGame() {
 
   // Reset mark because Player 1 goes first
-  var mark = "X";
+  mark = "X";
 
   // Change each buttons innerHTML to blank and set disabled to false
   document.getElementById("1").childNodes[1].innerHTML = "";
