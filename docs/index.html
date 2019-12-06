@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body onload="GetPlayerNames()">
+    <header>
+      <h3 id="player1">Player1</h3>
+      <h3 id="player2">Player2</h3>
+    </header>
+
+    <div class="resetBtnDiv">
+      <button id="reset" onclick="ResetGame()">New Game</button>
+    </div>
+
+    <div class=TicTacToe-Container>
+      <button type="button" id="1" onclick="XO(this)" >
+        <h3></h3>
+      </button>
+      <button type="button" id="2" onclick="XO(this)">
+        <h3></h3>
+      </button>
+      <button type="button" id="3" onclick="XO(this)">
+        <h3></h3>
+      </button>
+      <button type="button" id="4" onclick="XO(this)">
+        <h3></h3>
+      </button>
+      <button type="button" id="5" onclick="XO(this)">
+        <h3></h3>
+      </button>
+      <button type="button" id="6" onclick="XO(this)">
+        <h3></h3>
+      </button>
+      <button type="button" id="7" onclick="XO(this)">
+        <h3></h3>
+      </button>
+      <button type="button" id="8" onclick="XO(this)">
+        <h3></h3>
+      </button>
+      <button type="button" id="9" onclick="XO(this)">
+        <h3></h3>
+      </button>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
