@@ -157,6 +157,7 @@ function IsDraw() {
     document.getElementById("5").disabled == true &&
     document.getElementById("6").disabled == true &&
     document.getElementById("7").disabled == true &&
+    document.getElementById("8").disabled == true &&
     document.getElementById("9").disabled == true &&
     NoWinner == true ) {
     alert("There has been a draw!");
@@ -166,6 +167,9 @@ function IsDraw() {
 
 // Start game over
 function ResetGame() {
+
+  // Reset NoWinner
+  NoWinner = true;
 
   // Reset mark because Player 1 goes first
   mark = "X";
